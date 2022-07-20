@@ -1,0 +1,166 @@
+/* main header section dextop virson */
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header-main-container {
+    background: black;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    height: 600px;
+    width: 100%;
+    transition: 5s ease;
+
+}
+
+.header-main-container:hover {
+    background-position: right center;
+    background: rgba(25, 1, 26, 0.459);
+    color-interpolation-filters: auto;
+    color: rgba(0, 0, 0, 0.895);
+}
+
+.header-inner-container1 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+
+}
+
+.header-button {
+    background-image: linear-gradient(to right, #2BC0E4 0%, #eaecc6af 51%, #2BC0E4 100%);
+    margin: 25px 10px 10px 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    /* change the direction of the change here */
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.header-inner-container1>div>h1 {
+    font-size: 50px;
+}
+
+
+.header-inner-container2 img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 73%;
+    width: 100%;
+}
+
+/* 2nd section */
+.macth-container {
+    margin-top: 150px;
+
+}
+
+.macth-fast-container {
+    width: 25%;
+    float: left;
+}
+
+.live-blog {
+    width: 75%;
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.macth-info {
+    height: 230px;
+    width: 300px;
+    background: black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.macth-info>p {
+    padding: 15px 45px;
+    background: #fff;
+    border-radius: 15px;
+
+}
+
+#blog {
+    background: red;
+}
+
+.macth-info>p>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.blog-container {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+
+
+
+}
+
+.blog-container>img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-container>div>p>a {
+    padding: 5px 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.blog-icon {
+    display: flex;
+
+}
+
+.blog-icon>p {
+    width: 50%;
+}
+
+.fa-clock,
+.fa-comment {
+    margin-right: 10px;
+    color: grey;
+    font-size: 20px;
+}
+
+/* footer section */
+.footer-section {
+    height: 300px;
+    width: 100%;
+    background: black;
+}
