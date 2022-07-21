@@ -24,10 +24,9 @@ body {
 }
 
 .header-main-container:hover {
-    background-position: right center;
-    background: rgba(25, 1, 26, 0.459);
-    color-interpolation-filters: auto;
-    color: rgba(0, 0, 0, 0.895);
+    background: rgba(186, 28, 28, 0.292);
+
+
 }
 
 .header-inner-container1 {
@@ -163,4 +162,13 @@ body {
     height: 300px;
     width: 100%;
     background: black;
+}
+
+/* this is button only see tab/mobil */
+.button-none {
+    height: 50px;
+    width: 100%;
+    display: block;
+    background: pink;
+    align-items: center;
 }
