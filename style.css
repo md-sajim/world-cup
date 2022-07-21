@@ -207,3 +207,166 @@ footer {
     margin-right: 7px;
     color: blue;
 }
+
+/* raspnsive */
+/* mobil */
+@media screen and (max-width:576px) {}
+
+/* tablat */
+@media screen and (min-width:577px) and (max-width:992px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* banar section */
+    .main-container {
+        height: 500px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        background: black;
+        border-radius: 20px;
+        display: flex;
+
+    }
+
+    .banar-comon-style {
+        height: 100%;
+        width: 50%;
+        padding: 0 8%;
+
+    }
+
+
+    .banar-inner-container {
+        color: #fff;
+        line-height: 1em;
+        font-size: 25px;
+
+        width: 100%;
+        margin-top: 100px;
+
+
+
+
+    }
+
+    .header-button {
+        background-image: linear-gradient(to right, #2BC0E4 0%, #eaecc6af 51%, #2BC0E4 100%);
+        margin: 25px 10px 10px 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 5s;
+        color: white;
+        border-radius: 10px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .header-button:hover {
+        /* change the direction of the change here */
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+    /* blog section */
+    .main-blog-container {
+
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+
+        border-radius: 20px;
+
+
+    }
+
+    .blog-info-container {
+        height: 100%;
+        width: 30%;
+
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .blog-live-container {
+        height: 100%;
+        width: 70%;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .macth-info {
+        height: 130px;
+        width: 100%;
+
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5px;
+
+    }
+
+    .macth-info>p {
+        padding: 15px 45px;
+        background: #fff;
+        border-radius: 15px;
+
+    }
+
+    #blog {
+        background: red;
+    }
+
+    .macth-info>p>a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+
+    .blog-container {
+        width: 347px;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+
+    .blog-container>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-container>div>p>a {
+        padding: 5px 45px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .blog-icon {
+        display: flex;
+
+    }
+
+    .blog-icon>p {
+        width: 50%;
+    }
+
+    .fa-clock,
+    .fa-comment {
+        margin-right: 10px;
+        color: grey;
+        font-size: 20px;
+    }
+
+    .transpar-live-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
