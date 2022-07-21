@@ -67,12 +67,143 @@ body {
 
 /* blog section */
 .main-blog-container {
-    height: 800px;
+
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
-    background: black;
+
     border-radius: 20px;
     display: flex;
 
+}
+
+.blog-info-container {
+    height: 100%;
+    width: 30%;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.blog-live-container {
+    height: 100%;
+    width: 70%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.macth-info {
+    height: 230px;
+    width: 300px;
+    background: black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+.macth-info>p {
+    padding: 15px 45px;
+    background: #fff;
+    border-radius: 15px;
+
+}
+
+#blog {
+    background: red;
+}
+
+.macth-info>p>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.blog-container {
+    width: 347px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.blog-container>img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-container>div>p>a {
+    padding: 5px 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.blog-icon {
+    display: flex;
+
+}
+
+.blog-icon>p {
+    width: 50%;
+}
+
+.fa-clock,
+.fa-comment {
+    margin-right: 10px;
+    color: grey;
+    font-size: 20px;
+}
+
+.transpar-live-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* extra button */
+.extra-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    display: none;
+}
+
+/* footer section */
+footer {
+    height: 350px;
+    width: 100%;
+    background: black;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.footer-hr-line {
+
+    height: 2px;
+    width: 75%;
+    margin: 0 auto;
+    border-bottom: 2px solid gray;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contact-us>p {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.footer-icon>a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 7px;
+    color: blue;
 }
